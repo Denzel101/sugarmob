@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     SizedBox(
                       height: 72.0,
                     ),
-                    MiddleInfo(),
+                    MiddleInfo(videoPlayerController: _controller),
                     TriviaCard(),
                   ],
                 ),
