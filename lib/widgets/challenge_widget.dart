@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sugarmob/components/rounded_button.dart';
+import 'package:sugarmob/screens/countdown_screen.dart';
 import 'package:sugarmob/src/constants.dart';
 
 class ChallengeWidget extends StatelessWidget {
@@ -65,7 +66,9 @@ class ChallengeWidget extends StatelessWidget {
                   ),
                 ),
                 color: Colors.transparent,
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, CountDownScreen.id);
+                },
               ),
             ],
           ),

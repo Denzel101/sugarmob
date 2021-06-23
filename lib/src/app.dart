@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sugarmob/screens/challenge_screen.dart';
+import 'package:sugarmob/screens/countdown_screen.dart';
 import 'package:sugarmob/screens/home_screen.dart';
 import 'package:sugarmob/screens/splash_screen.dart';
 
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         SplashScreen.id: (context) => SplashScreen(),
         HomeScreen.id: (context) => HomeScreen(),
         ChallengeScreen.id: (context) => ChallengeScreen(),
+        CountDownScreen.id: (context) => CountDownScreen(),
       },
       debugShowCheckedModeBanner: false,
     );
