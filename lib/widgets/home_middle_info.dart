@@ -21,7 +21,7 @@ class MiddleInfo extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Text(
-            'DAILY CHALLENGE',
+            'DAILY',
             textAlign: TextAlign.center,
             style: kLabelTextStyle.copyWith(
               fontSize: 60.0,
